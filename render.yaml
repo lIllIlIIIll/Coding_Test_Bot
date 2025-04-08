@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: coding-test-api
+    env: ubuntu
+    buildCommand: ""
+    startCommand: ./start.sh
+    plan: free
